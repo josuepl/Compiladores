@@ -1,0 +1,36 @@
+//esto es un comentario
+//esto es un comentario
+//esto es un comentario
+int main()
+
+{
+	int token;
+
+	while (1)
+
+	{
+
+		token = yylex();
+		//esto es un comentario
+		if (token == TOK_INICIO)//esto es un comentario
+
+			printf(“reconocido INICIO\n”);//esto es un comentario
+
+		if (token == TOK_FIN)//esto es un comentario
+
+			printf(“reconocido FIN\n”);//esto es un comentario
+
+		/* ifs para los tokens TOK_VECTOR, TOK_ENTERO y TOK_LOGICO)//esto es un comentario
+
+		if (token == 0)
+		//esto es un comentario
+			break;
+			//esto es un comentario
+
+	}
+
+	return 0;
+	//esto es un comentario
+	//esto es un comentario
+	//esto es un comentario
+}
