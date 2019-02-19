@@ -4,6 +4,7 @@
 # www.pythondiario.com
  
 import re
+import time
  
 #Definimos la funcion caracter 
 def caracter(character):
@@ -65,15 +66,17 @@ for  character in cadena:
      
     #guardamos en estado el valor obtenido en la tabla segun las cordenadas que recibio anteriormente
     estado=tabla[estado][charcaracter]
-     
+    
     #Si el valor obtenido es una E imprimimos cadena no valida
     if (estado=="E"):
         print("|     ",estadosig,"      |  ",character,"    |",simbolo," |     ",estado,"       |")
         body()
         print("""|              Cadena No Valida :(                   |
 +----------------------------------------------------+""")
+        time.sleep(2)
         exit()
     contenido(estadosig,character,simbolo,estado)
+    time.sleep(2)
  
 #al concluir si el estado no es 3 que es el de aceptacion imprimimos cadena no valida    
 if(estado!=3):
