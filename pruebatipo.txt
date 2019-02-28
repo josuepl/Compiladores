@@ -1,0 +1,11 @@
+int x;
+int y;
+int z
+float a;
+float c;
+float b;
+
+a=x*a;
+a=a+b+c;
+x=y*z;
+a+z=a;
