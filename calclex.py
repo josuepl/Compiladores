@@ -18,11 +18,11 @@ reserved = {
 tokens = list(reserved.values()) + [
     'VAR','NUMBER',
     'PLUS','MINUS','TIMES','DIVIDE','EQUALS',
-    'LPAREN','RPAREN',
+    'LPAREN','RPAREN','LIM',
     ] 
 
 # Tokens
-
+t_LIM     = r'\;'
 t_PLUS    = r'\+'
 t_MINUS   = r'-'
 t_TIMES   = r'\*'
@@ -33,8 +33,9 @@ t_RPAREN  = r'\)'
 t_WHILE   = r'while'
 t_IF      = r'if'
 #t_VAR    = r'[a-zA-Z_][a-zA-Z0-9_]*'
-t_VAR    = r'[^'+str(reserved)+'][a-zA-Z0-9_]*'
+t_VAR    = r'[^'+str(tokens)+'][a-zA-Z0-9_]*'
 t_PRINT   = r'print'
+
 
 
 def t_NUMBER(t):

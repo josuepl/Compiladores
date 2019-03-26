@@ -37,6 +37,8 @@ def p_expression_binop(t):
     elif t[2] == '-': t[0] = t[1] - t[3]
     elif t[2] == '*': t[0] = t[1] * t[3]
     elif t[2] == '/': t[0] = t[1] / t[3]
+    print("exp "+t[2]+"  "+ str(t[0]))
+
 
 def p_expression_uminus(t):
     'expression : MINUS expression %prec UMINUS'
@@ -62,8 +64,14 @@ def p_error(t):
     print("Syntax error at '%s'" % t.value)
 
 def p_print(t):
-    'statement : PRINT LPAREN expression RPAREN'
-
+    'statement : PRINT LPAREN expression RPAREN LIM'
+    print("Funcion PRINT")
+    print(t[3])
+    
+def p_statement_print_error(p):
+    'statement : PRINT error'
+    print("Syntax error in print statement. Bad expression")
+    
 #def p_expression_list(t):
     #'expression : expression, expression_list'
     
@@ -83,10 +91,10 @@ while True:
     while True:
         tok = lexer.token()
         if not tok: break      # No more input
-        print (tok)
+        print(tok)
     result = parser.parse(data)
-    print(result)
-    print(tokens)
+    print("mensaje res"+str(result))
+    print("mensaje toks"+str(tokens))
     
 
 
