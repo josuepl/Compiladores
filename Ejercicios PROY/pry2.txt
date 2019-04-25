@@ -1,0 +1,46 @@
+/*Este es un codigo de prueba*/
+
+char do(int par1, int par2){
+// resultado
+
+resultado = par1 + par2 - par1*par2 / par3;
+
+}
+
+int scanf(int par1, int par2, int par3){
+// int resul
+resul = par1 + par2 * par3;
+resul = par2 / par1 - par2;
+do(resul, par1);
+}
+
+float scanf(float par1, float par2{
+// int resul
+resul = par1 + par2;
+resul = par2 / par1;
+}
+
+int principal(){
+int a;
+int b;
+int c;
+float x;
+float y;
+float z;
+
+scanf(x, y, z);
+scanf(a, b, c);
+scanf(x, y);
+
+do(x, y);
+
+do(a+b+c, x*y*z)
+;
+
+x  =a +b/z;
+c = a - x*y;
+
+
+
+}
+

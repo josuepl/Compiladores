@@ -1,0 +1,44 @@
+int scanf(int par1, int par2, int par3){
+// int resul
+resul = par1 + par2 * par3;
+resul = par2 / par1 - par2;
+do(resul, par1);
+}
+
+float scanf(float par1, float par2{
+// int resul
+resul = par1 + par2;
+resul = par2 / par1;
+}
+
+print(int par1, int par2, int par3){
+par1 = par2 - par3;
+par 2= par1+ par3;
+res = par1+ par2 * par3;
+
+}
+
+int principal(){
+int a;
+int b;
+int c;
+float a;
+float b;
+
+x = a + b + z;
+c = a + b; 
+float x;
+float y;
+float z;
+
+scanf(x+a, y-b, z);
+scanf(x, y);
+
+}
+
+char do(int par1, int par2){
+// resultado
+
+resultado = par1 + par2 - par1*par2 / par3;
+print(43 , 11, 23);
+}
