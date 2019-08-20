@@ -1,11 +1,11 @@
-do(arg1, arg3, arg5){
+//comentario uno
 x=var+var3*4/2;
 arg1=arg3-arg5*x+y;
 var2=res1/2-arg5;
-}
 
-print(args){
+!#comentario 2
+
 res= 45+8/args+args*25;
 x=y*3-5*t;
 sum=res*5-div*mul;
-}
+
