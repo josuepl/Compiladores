@@ -5,11 +5,22 @@ VOID chart(){
     a = x+y;
     b = c-x;
     c = x*y/z;
+    RETURN x;
 }
+
+STR opc(){
+BOOL a,b,c;
+STR ax;
+ax = a + b + c;
+BREAK;
+}
+
 INT main(){
     FLOAT var1, var3, var4;
     CHAR ch1, ch2;
+    chart();
+    opc();
     GET("var");
-    PUTS(ch1,ch2);
-
+    WRITE(ch1,ch2);
+    BREAK;
 }
