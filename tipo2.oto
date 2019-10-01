@@ -1,0 +1,15 @@
+
+VOID chart(){
+    INT x,yz;
+    FLOAT a,b,c;
+    a = x+y;
+    b = c-x;
+    c = x*y/z;
+}
+INT main(){
+    FLOAT var1, var3, var4;
+    CHAR ch1, ch2;
+    GET("var");
+    PUTS(ch1,ch2);
+
+}
