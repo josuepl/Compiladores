@@ -1,0 +1,19 @@
+VOID get(STR var, TIPO var2);
+VOID push(TIPO var);
+VOID scanf(TIPO var);
+
+VOID printf(STR var, TIPO var2, TIPO var3, TIPO var4);
+
+
+TIPO : INT, FLOAT, STR, BOOLEAN, CHAR
+
+
+VOID main (){
+    int a, b, c;
+    float d;
+    STR aa;
+    get(aa, a);
+    push(b);
+    scanf(aa);
+    printf(aa, a, b, c, d)
+}
